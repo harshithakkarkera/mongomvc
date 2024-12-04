@@ -1,0 +1,6 @@
+{"level":"info","message":"Successfully fetched employee detail {req.params.id}","timestamp":"2024-11-06T11:36:22.331Z"}
+{"level":"info","message":"Successfully fetched employee detail {req.params.id}","timestamp":"2024-11-06T11:36:50.940Z"}
+{"level":"error","message":"Employee with ID 672469654c0acfddf7c79705 not found","timestamp":"2024-11-06T11:50:23.038Z"}
+{"level":"error","message":"Employee with ID 672469654c0acfddf7c79706 not found","timestamp":"2024-11-06T11:50:36.442Z"}
+{"level":"info","message":"Successfully fetched employee detail {req.params.id}","timestamp":"2024-11-06T11:51:03.257Z"}
+{"level":"error","message":"Failed to fetch employee details login","timestamp":"2024-12-04T09:23:01.297Z"}

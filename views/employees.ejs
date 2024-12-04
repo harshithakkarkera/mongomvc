@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+</head>
+<body>
+    
+    <h1>Employee Details</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% allemployeesDetails.forEach(emp => { %>
+                <tr>
+                    <td><%= emp.first_name %></td>
+                    <td><%= emp.last_name %></td>
+                    <td><%= emp.email %></td>
+                    <td><a href="http://localhost:8000/web/employees/update?eid=<%= emp._id %>"><button>Update</button></a></td>
+                    <td><a href="http://localhost:8000/web/employees/delete?eid=<%= emp._id %>"><button>Delete</button></a></td>
+                </tr>
+            <% }); %>
+        </tbody>
+    </table>
+    
+    <%- include("partials/footer") %>
+</body>
+</html>
