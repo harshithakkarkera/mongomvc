@@ -17,6 +17,6 @@ mongoose.connect(
 }).catch((err)=>{
     console.log('Connection not done',err);
 })
-app.listen(port,'0.0.0.0',()=>{
+app.listen(port,()=>{
     console.log(`Express app is running in ${port}`)
 })
